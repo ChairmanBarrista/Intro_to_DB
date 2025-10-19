@@ -1,5 +1,5 @@
 import mysql.connector
-from mysql.connector import Error
+from mysql.connector.Error
 
 def create_database():
     """Creates the 'alx_book_store' database if it does not already exist."""
